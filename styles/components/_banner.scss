@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+.banner {
+  background: url(../imgs/banner.jpeg) 27% center no-repeat;
+  opacity: 0.9;
+  min-height: 350px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inner-banner {
+    padding: 3rem;
+    background-color: $cor-terciaria ;
+    opacity: 0.9;
+    border-radius: 35px;
+    h1 {
+      font-size: $tamanho-do-texto;
+      // $cor-primaria : red; variacels Saas suportam o conceito de Escopo
+      color: $cor-primaria;
+    }
+    h2 {
+      font-size: calc($tamanho-do-texto/2);
+      color: $cor-secundaria;
+    }
+  }
+}
