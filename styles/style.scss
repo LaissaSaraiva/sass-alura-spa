@@ -1,0 +1,5 @@
+// Trazer pedaços do css para um css maior - particionado os css em arquivos especificos
+
+@import './abstract/_base.scss';
+@import './components/navbar';
+
