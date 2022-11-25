@@ -156,4 +156,33 @@ footer {
 }
 footer i {
   color: red;
+}
+
+#spa {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+#spa .spa__img {
+  border-bottom: 8px solid #863A6F;
+}
+#spa .spa__container {
+  width: 500px;
+  line-height: 30px;
+}
+#spa .spa__container h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #863A6F;
+  font-size: 2rem;
+}
+#spa .spa__container h4 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #CFB997;
+}
+#spa .spa__container p {
+  color: #975C8D;
 }/*# sourceMappingURL=style.css.map */
